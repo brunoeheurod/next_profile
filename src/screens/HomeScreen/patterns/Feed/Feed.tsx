@@ -14,13 +14,14 @@ export default function Feed() {
   return (
     <>
       <Box
+        className="fine-adjust"
         styleSheet={{
           width: {
             xs: '100%',
             sm: '100%',
             md: '100%',
             lg: '100%',
-            xl: '45vw',
+            xl: '100%',
           },
           flexDirection: 'row',
           alignItems: 'top',
@@ -75,13 +76,14 @@ export default function Feed() {
       </Box>
 
       <Box
+        className="fine-adjust-1"
         styleSheet={{
           width: {
             xs: '100%',
             sm: '100%',
             md: '100%',
             lg: '100%',
-            xl: '39vw',
+            xl: '100%',
           },
 
           alignItems: 'start',
@@ -92,13 +94,14 @@ export default function Feed() {
         }}
       >
         <Box
+          className="fine-adjust-2"
           styleSheet={{
             width: {
               xs: '100%',
               sm: '100%',
               md: '100%',
               lg: '100%',
-              xl: '20vw',
+              xl: '100%',
             },
             flex: { sm: 0, xl: 1 },
             alignItems: 'center',
@@ -126,13 +129,14 @@ export default function Feed() {
           ))}
         </Box>
         <Box
+          className="fine-adjust-3"
           styleSheet={{
             width: {
               xs: '100%',
               sm: '100%',
               md: '100%',
               lg: '100%',
-              xl: '13vw',
+              xl: '100%',
             },
             flex: { lg: 0, xl: 1 },
             alignItems: 'center',
